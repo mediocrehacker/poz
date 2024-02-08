@@ -22,7 +22,9 @@
     "tailwindcss": "npm:tailwindcss@3.4.1",
     "tailwindcss/": "npm:/tailwindcss@3.4.1/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
-    "daisyui": "npm:/daisyui@4.6.2"
+    "tailwindcss/typography": "npm:/@tailwindcss/typography@0.5.10",
+    "daisyui": "npm:/daisyui@4.6.2",
+    "themeChange": "npm:/theme-change@2.0.2"
   },
   "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" }
 }
