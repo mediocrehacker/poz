@@ -7,3 +7,15 @@
     animation-play-state: paused;
   }
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100vw;
+}

@@ -10,14 +10,14 @@ export default {
   theme: {
     extend: {
       animation: {
-        'infinite-scroll': 'infinite-scroll 95s linear infinite',
+        "infinite-scroll": "infinite-scroll 45s linear infinite",
       },
       keyframes: {
-        'infinite-scroll': {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-100%)' },
-        }
-      }                    
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
     },
   },
 
